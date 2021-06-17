@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConcertActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.NavigationDrawerApApplication.AppBarOverlay">
+
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.NavigationDrawerApApplication.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="70dp"
+            android:text="@string/near_events"
+            android:textColor="#000000" />
+
+        <HorizontalScrollView
+            android:id="@+id/horizo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:padding="20dp"
+                android:orientation="horizontal">
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/pos_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="20px">
+
+                    <ImageView
+                        android:id="@+id/pos_1_img"
+                        android:layout_width="260dp"
+                        android:layout_height="164dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/concert_2" />
+
+
+                    <TextView
+                        android:id="@+id/pos_1_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="29dp"
+                        android:layout_weight="1"
+                        android:text="FESTIWAL LONDON"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/pos_1_small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:layout_weight="1"
+                        android:text="29 Maj 2021"
+                        android:textSize="12sp" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/pos_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="20px">
+
+                    <ImageView
+                        android:id="@+id/pos_2_img"
+                        android:layout_width="260dp"
+                        android:layout_height="164dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/concert_4" />
+
+
+                    <TextView
+                        android:id="@+id/pos_2_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="29dp"
+                        android:layout_weight="1"
+                        android:text="FESTIWAL LONDON"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/pos_2_small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:layout_weight="1"
+                        android:text="29 Maj 2021"
+                        android:textSize="12sp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="379dp"
+            android:orientation="horizontal">
+
+            <ListView
+                android:id="@+id/concertList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></ListView>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+            </ScrollView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

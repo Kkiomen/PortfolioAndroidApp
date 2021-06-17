@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+    <group>
+        <item
+            android:id="@+id/nav_portfolio"
+            android:icon="@drawable/ic_address_card"
+            android:title="@string/show_portfolio" />
+        <item
+            android:id="@+id/nav_concert"
+            android:icon="@drawable/ic_ticket_alt"
+            android:title="@string/concerts" />
+<!--        <item-->
+<!--            android:id="@+id/nav_album"-->
+<!--            android:icon="@drawable/ic_compact_disc"-->
+<!--            android:title="@string/show_new_album" />-->
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/ic_shopping_cart"
+            android:title="@string/show_shop" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_images"
+            android:title="@string/show_gallery" />
+
+    </group>
+    <group>
+        <item
+            android:id="@+id/nav_author"
+            android:icon="@drawable/ic_dev"
+            android:title="@string/show_contact_author" />
+        <item
+            android:id="@+id/nav_rules"
+            android:icon="@drawable/ic_exclamation"
+            android:title="@string/show_rules" />
+    </group>
+</menu>

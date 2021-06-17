@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#58595b">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="-20dp"
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="258dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/martin_photomain" />
+
+        <TextView
+            android:id="@+id/textHEAD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DJ | PRODUCENT"
+            android:textColor="#EDB818"
+            android:textSize="15sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Martin Garrix"
+            android:textColor="#ffffffff"
+            android:textSize="30sp"
+            android:layout_marginTop="-7dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Holenderski DJ i producent muzyczny, wykonujący muzykę z gatunków bigroom house, electro house, dutch house, progressive house oraz trap."
+            android:textColor="#ffffffff"
+
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="2dp"
+            android:textColor="#ffffff"
+            android:text="@string/home_page_music_last" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="#1E1E1F"
+            android:padding="16dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <ImageView
+                android:id="@+id/item_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="16dp"
+                app:srcCompat="@drawable/the_only_way_is_up" />
+
+            <TextView
+                android:id="@+id/item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/item_image"
+                android:text="@string/home_page_music_name"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/item_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_title"
+                android:text="@string/home_page_music_author"
+                android:layout_toRightOf="@+id/item_image"
+                android:textColor="#FFFFFF"
+                />
+
+            <Button
+
+                android:id="@+id/play_last_music"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                android:layout_width="242dp"
+                android:layout_height="43dp"
+                android:layout_below="@+id/item_detail"
+                android:layout_marginTop="6dp"
+                android:layout_toRightOf="@+id/item_image"
+                android:text="@string/play"
+                android:textColor="#FFFFFF"
+                app:boxStrokeColor="#EDB818"
+                app:iconTint="#EDB818"
+                app:strokeColor="#EDB818" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

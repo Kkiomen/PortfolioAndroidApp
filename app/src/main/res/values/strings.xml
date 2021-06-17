@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Martin Garrix</string>
+    <string name="header_main">Martin Garrix - Home</string>
+    <string name="show_portfolio">Portfolio</string>
+    <string name="show_concert">Koncerty</string>
+    <string name="show_new_album">Nowy album</string>
+    <string name="show_new_song">Nowa piosenka</string>
+    <string name="show_shop">Sklep | Gadżety</string>
+    <string name="show_contact_author">Kontakt do autora</string>
+    <string name="show_rules">Regulamin, Polityka prywatności</string>
+    <string name="show_gallery">Galeria</string>
+
+    <string name="home_page_music_last">Ostatnio wydany utwór:</string>
+    <string name="home_page_music_name">The Only Way Is Up</string>
+    <string name="home_page_music_author">Martin Garrix &amp; Tiesto</string>
+    <string name="play">PLAY</string>
+    <string name="pause">Pause</string>
+    <string name="concerts">Koncerty</string>
+    <string name="title_activity_concert">ConcertActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="near_events">Najbliższe wydarzenia</string>
+    <string name="waiting_information_web">Poczekaj, przenosimy Cię na strone</string>
+
+    <string name="thumbnail">thumbnail</string>
+
+    <string name="form">Formularz kontaktowy</string>
+    <string name="topic">Temat</string>
+    <string name="message">Wiadomość</string>
+    <string name="send">Wyślij</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_concert_page">ConcertPageActivity</string>
+    <string name="title_activity_portfolio">PortfolioActivity</string>
+    <string name="martin"><b>Martin Garrix</b></string>
+    <string name="martin_portfolio_description">
+        Garrix już od najmłodszych lat wykazywał przywiązanie do muzyki. Jako dziecko kupił sobie tani sprzęt DJ i grał na imprezach u mamy, rodziny i znajomych. We wczesnych latach nastoletnich uczęszczał do Herman Brood Academie, specjalnej szkoły, gdzie uczono podstaw produkcji muzyki, którą ukończył w wieku 14 lat. W 2011 roku wydał swój pierwszy bootleg do singla Enrique Iglesiasa pt. Tonight. Przełom nastąpił w 2012 roku, kiedy w lipcu podpisał kontrakt z holenderskim gigantem Spinnin’ Records, gdzie we wrześniu wydał swój pierwszy singiel pt. Keygen. Kolejnym krokiem w karierze było BFAM, które powstało z innym młodym talentem z ‘szeregów’ Spinnin i jednocześnie kolegą ze szkoły muzycznej – Julianem Jordanem. Dzięki niemu 16 latek zyskał ogromny rozgłos, a na fali popularności singla propozycje współpracy przy produkcji utworów otrzymał między innymi od Sidneya Samsona. Efekt ich pracy pt. Torrent wydano nakładem wytwórni Tiësto – Musical Freedom. Kolejne utwory Garrixa ukazały się już w wytwórni Spinnin’ Records z utworem Animals na czele.
+        Garrix, jako wówczas najmłodszy wykonawca, zagrał w klubie Privilege Ibiza na hiszpańskiej wyspie, a także był jedyną osobą poniżej 18 roku życia, która pojawiła się na terenie belgijskiego festiwalu Tomorrowland.
+        Martin Garrix współpracował z takimi wykonawcami jak David Guetta, Avicii, Tiësto, Dyro, Afrojack, Hardwell, Borgore czy R3hab.
+        W zestawieniu DJ Mag Top 100 Martin Garrix uzyskał czterdzieste miejsce w 2013, czwarte w 2014, trzecie w 2015 oraz pierwsze w 2016, 2017 oraz 2018 roku. W 2019 roku spadł na drugie miejsce. Natomiast w 2020 roku znalazł się na 3 miejscu zestawienia. W 2016 roku Garrix w atmosferze konfliktu z powodu nieporozumień opuścił skrzydła wytwórni Spinnin’ Records, po czym otworzył własną wytwórnie muzyczną – STMPD RCRDS
+    </string>
+    <string name="title_activity_shop">ShopActivity</string>
+    <string name="shop_signature_collection">SIGNATURE COLLECTION</string>
+    <string name="title_activity_author">AuthorActivity</string>
+    <string name="title_activity_rules">RulesActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_current_image">CurrentImageActivity</string>
+    <string name="title_activity_gallery_view">GalleryViewActivity</string>
+    <string name="title_activity_maps2">Map</string>
+</resources>
